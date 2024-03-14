@@ -4,8 +4,8 @@
 [ext_resource type="Texture2D" uid="uid://caqfk2xng5v5u" path="res://trees/pine_tree.png" id="2_sdoc7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_bitqf"]
-radius = 17.0
-height = 44.0
+radius = 25.0
+height = 50.0
 
 [node name="Pinetree" type="StaticBody2D"]
 
@@ -21,5 +21,5 @@ scale = Vector2(1.01563, 1)
 texture = ExtResource("2_sdoc7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -14)
+position = Vector2(0, -10)
 shape = SubResource("CapsuleShape2D_bitqf")

@@ -3,16 +3,21 @@
 [ext_resource type="Script" path="res://player.gd" id="1_evt2h"]
 [ext_resource type="PackedScene" uid="uid://pbmyh1qru7p" path="res://characters/happy_boo/happy_boo.tscn" id="1_tmtqq"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_tkyhx"]
-radius = 50.0
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kuqj0"]
+radius = 27.0
+height = 60.0
 
 [node name="Player" type="CharacterBody2D"]
+position = Vector2(958, 552)
 script = ExtResource("1_evt2h")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_tmtqq")]
 unique_name_in_owner = true
-position = Vector2(917, 528)
+position = Vector2(1, 0)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(917, 528)
-shape = SubResource("CircleShape2D_tkyhx")
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(1, -1)
+shape = SubResource("CapsuleShape2D_kuqj0")
+debug_color = Color(0.905882, 0.290196, 0.227451, 0.419608)
+
+[node name="Camera2D" type="Camera2D" parent="."]
