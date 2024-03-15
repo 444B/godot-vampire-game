@@ -22,6 +22,15 @@ position = Vector2(921, 512)
 [node name="Pinetree" parent="." instance=ExtResource("2_hao5w")]
 position = Vector2(349, 289)
 
+[node name="Pinetree5" parent="." instance=ExtResource("2_hao5w")]
+position = Vector2(432, 250)
+
+[node name="Pinetree7" parent="." instance=ExtResource("2_hao5w")]
+position = Vector2(581, 219)
+
+[node name="Pinetree8" parent="." instance=ExtResource("2_hao5w")]
+position = Vector2(1279, 322)
+
 [node name="Pinetree2" parent="." instance=ExtResource("2_hao5w")]
 position = Vector2(405, 823)
 
@@ -32,4 +41,16 @@ position = Vector2(1565, 565)
 position = Vector2(1592, 854)
 
 [node name="Mob" parent="." instance=ExtResource("3_3gpoq")]
-position = Vector2(528, 568)
+position = Vector2(145, 641)
+
+[node name="Mob2" parent="." instance=ExtResource("3_3gpoq")]
+position = Vector2(887, 999)
+
+[node name="Mob3" parent="." instance=ExtResource("3_3gpoq")]
+position = Vector2(1753, 726)
+
+[node name="Mob4" parent="." instance=ExtResource("3_3gpoq")]
+position = Vector2(1670, 132)
+
+[node name="Mob5" parent="." instance=ExtResource("3_3gpoq")]
+position = Vector2(197, 113)
